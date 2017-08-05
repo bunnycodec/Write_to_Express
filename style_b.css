@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{}
+	
+	#container {
+		
+		width: 100%;
+		min-height: 100%;
+		margin: 0px;
+		padding: 50px;
+		border: 2px black solid;
+		background-image: url("picture.jpg");
+		background-size: cover;
+	}
+	
+		#header {
+			
+			width: 1600px;
+		}
+		
+			#header h1 {
+				text-align: center;
+				color: black;
+				padding: 30px;
+			}
+		
+		#nav {
+			
+			width: 1600px;
+		}
+		
+			#nav li {
+				float: left;
+				font-size: 20px;
+				color: black;
+				padding: 20px 0px;
+				text-align: center;
+				width: 266.6px;
+				list-style: none;
+			}
+			
+				#nav li:hover {
+					background:black;
+					color: whiTe;
+				}
+			
+		#content {
+			width: 1600px;
+		}
+		
+			.left-side {
+				width: 1190px;
+				float:left;
+				margin-top:0;
+				padding-top: 0;
+			}
+			
+				.main{
+					margin:10px;
+				}
+				
+				.main p {
+					font-family: arial;
+					font-size: 20px;
+					font-style: italic;
+					padding: 20px 20px;
+				}
+				
+				.main-image{
+					width: 360px;
+					height: 300px;
+					padding: 0 0 0 20px;
+					margin-top:0;
+					padding-top: 0;
+                    border-radius: 1em;
+                    
+				}
+			
+			.right-side {
+				width: 400px;
+				height: 780px;
+				float: right;
+			}
+			
+				.right-top h2{
+					text-decoration: underline;
+					width: 360px;
+					text-align: center;
+					font-family: arial; 
+					padding: 40px 10px;
+				}
+				
+					.form{
+						background: black;
+						color: white;
+						margin: 10px 10px ; 
+						padding:10px;
+						padding-top: 30px;
+						text-align: center;
+						border: 2px solid gray;
+                        border-radius: 1em;
+					}
+
+                    .changing{
+                        font-weight: bolder;
+                    }
+
+					
+					.form:hover{
+						background: white;
+						color: black;
+						border: 2px solid black;
+					}
+			
+		
+		blockquote {
+			padding: 0 20px 0 20px;
+			font-family: arial;
+			font-size: 20px;
+			font-style: italic;
+		}
+		
+		#footer {
+			padding: 20px;
+			background: #0C5837;
+			color: black;
+			text-align: center;
+			font-family: arial; 
+		}
+
+
+
+/**** Contact Us starts ****/
+
+	form input[type="text"]{
+		width: 250px;
+		height: 20px;
+		padding: 2px;
+		border: 1px solid black;
+	}
+	
+	form input[type="password"]{
+		width: 250px;
+		height: 20px;
+		padding: 2px;
+		border: 1px solid black;
+	}
+	
+	form input[type="file"]{
+		width: 250px;
+		height: 20px;
+		padding: 2px;
+	}
+	
+	form select{
+		width: 250px;
+		height: 30px;
+		padding: 2px;
+		margin: 10px;
+		border: 1px solid black;
+	}
+	
+	form textarea{
+		width: 250px;
+		height: 80px;
+		padding: 2px;
+		border: 1px solid black;
+		resize: none;
+		margin: 10px 10px 0 10px;
+	}
+	
+	form input[type="submit"]{
+		width: 250px;
+		height: 20px;
+		padding: 2px;
+		border: 1px solid black;
+	}
+	
+	form input[type="submit"]:hover{
+		background:gray;
+		color: white;
+		border: 1px solid black;
+	}
+	
+	form{
+		height: 760px;
+		margin: 10px;
+		border: 2px solid black;
+		padding: 10px 100px 10px 10px;
+		background-image: url("3.jpg");
+		background-size: cover;
+		
+	}
+	
+	form input{
+		margin: 8px;
+	}
+
+/*** Contact Us Ends ****/	
+
+	
+/* Iframe CSS */
+
+#head_iframe{
+	border: 0;
+	width: 1600px;
+	height: 160px;
+}
+#right-side_iframe {
+	border: 0;
+	width: 400px;
+	height: 780px;
+	padding-top: 10px;
+}
+
+/* Iframe CSS */

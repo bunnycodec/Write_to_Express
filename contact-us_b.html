@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Write to Express</title>
+		<link rel="stylesheet" href="style_b.css">
+	</head>
+	
+	<body>
+		<div id="container">
+		
+			<iframe src="head_b.html" id="head_iframe"></iframe>
+
+			<div id="content">
+				<div class="left-side">
+					<form action="process.php" method="post" enctype="multipart/form-data">
+					<h2 style="text-align:center;"> <u>Registration</u> </h2>
+			<table>
+				<tr>
+					<td>Upload your Image</td>
+					<td><input type ="file" name="up_image"></td>
+				</tr>
+				<tr>
+					<td>First Name </td>
+					<td><input type ="text" name="f_name" placeholder="Type your first name"></td>
+				</tr>
+				<tr>
+					<td>Last Name </td>
+					<td><input type ="text" name="l_name" placeholder="Type your last name"></td>
+				</tr>
+				<tr>
+					<td>Email ID </td>
+					<td><input type ="text" name="email" placeholder="example@gmail.com"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type ="password" name="password" placeholder="Type your password"></td>
+				</tr>
+				<tr>
+					<td>Gender </td>
+					<td><input type ="radio" name="gender" value="male"> Male
+					<input type ="radio" name="gender" value="female"> Female
+				</tr>
+				<tr>
+					<td>Skills</td>
+					<td>
+						<input type ="checkbox" value="html">  HTML
+						<input type ="checkbox" value="css">  CSS
+						<input type ="checkbox" value="php">  PHP
+						<input type ="checkbox" value="js">  JS
+					</td>
+				</tr>
+				<tr>
+					<td>Select Your Country</td>
+					<td>
+						<select name="sel_country">
+							<option>Select a Country</option>
+							<option value="America">America</option>
+							<option value="Britain">Britain</option>
+							<option value="Canada">Canada</option>
+							<option alue="Denmark">Denmark</option>
+							<option alue="India">India</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> Comments</td>
+					<td> 
+						<textarea placeholder="Comment about yourself"></textarea> 
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td> <input type="submit" value="Submit" name="submit_but"> </td>
+				</tr>
+
+			</table>
+		</form>
+				</div>
+				<iframe src="right-side_b.html" id="right-side_iframe"></iframe>
+				<div style="clear:both;"></div>
+			</div>
+			<div id="footer">This Webpage is created by Sunny Kumar</div>
+		</div>
+	</body>
+</html>
